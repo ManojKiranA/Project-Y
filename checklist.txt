@@ -1,0 +1,22 @@
+Alpine layouts
+
+app.blade.php =>
+    un comment app.js script
+    @include('alpine.sidebar.includes.navbar')
+
+index.blade.php =>
+    @extends('alpine.sidebar.layouts.app')
+
+home.blade.php =>
+    @extends('alpine.sidebar.layouts.app')
+
+
+
+Vue layouts
+
+index.blade.php =>
+    @extends('vue.sidebar.layouts.app')
+
+home.blade.php =>
+    @extends('vue.sidebar.layouts.app')
+
